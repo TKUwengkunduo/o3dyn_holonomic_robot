@@ -9,7 +9,7 @@ This is a ROS 2 Humble-based demo project for controlling an omnidirectional rob
 ## Project Structure
 
 ```bash
-o3dyn_ws/
+o3dyn_holonomic_robot/
 ├── demo.gif
 ├── README.md
 ├── src/
