@@ -1,4 +1,4 @@
-# O3Dyn Holonomic Robot
+# O3dyn Holonomic Robot
 
 This is a ROS 2 Humble-based demo project for controlling an omnidirectional robot platform. The main node `basic_motion_demo.py` demonstrates smooth and continuous motion commands: forward, lateral, and infinite rotation. This package is suitable for testing hardware or simulation environments such as NVIDIA Isaac Sim.
 
