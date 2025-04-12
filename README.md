@@ -47,11 +47,30 @@ source install/setup.bash
 
 ---
 
+## Launching in Isaac Sim with ROS2
+
+To simulate and control the robot using ROS2 in Isaac Sim:
+
+1. **Open the USD file in Isaac Sim**
+   - Launch Isaac Sim.
+   - Open `USD/o3dyn_ros2.usd`.
+   - Run project.
+
+2. **Verify ROS2 Communication**
+   - In a new terminal:
+
+     ```bash
+     ros2 topic list
+     ```
+
+   - You should see `/cmd_vel` listed, confirming the robot is publishing/subscribing as expected.
+
+---
+
 ## Run the Demo Node
+
+This will begin the motion sequence: forward, lateral, and continuous rotation:
 
 ```bash
 ros2 run demo basic_motion_demo
 ```
-
-> Ensure your robot subscribes to the `/cmd_vel` topic using `geometry_msgs/msg/Twist` messages.
-
