@@ -24,7 +24,8 @@ o3dyn_holonomic_robot/
 │       ├── setup.py
 │       └── test/
 └── USD/
-    └── o3dyn_ros2.usd                   # Robot model for simulation
+    └── o3dyn_full.usd                    # Robot model for simulation
+    └── Gamepad_ogn.usd                   # Graph
 ```
 
 ---
@@ -53,7 +54,8 @@ To simulate and control the robot using ROS2 in Isaac Sim:
 
 1. **Open the USD file in Isaac Sim**
    - Launch Isaac Sim.
-   - Open `USD/o3dyn_ros2.usd`.
+   - Copy `USD/o3dyn_full.usd` and `USD/Gamepad_ogn.usd` to Local nucleus service, and make sure they are in the same folder. 
+   - If there is no floor, you can create one in `Creat>>Environments>>Flat Grid`
    - Run project.
 
 2. **Verify ROS2 Communication**
