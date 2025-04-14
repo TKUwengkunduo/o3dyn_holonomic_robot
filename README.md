@@ -2,7 +2,7 @@
 
 This is a ROS 2 Humble-based demo project for controlling an omnidirectional robot platform. The main node `basic_motion_demo.py` demonstrates smooth and continuous motion commands: forward, lateral, and infinite rotation. This package is suitable for testing hardware or simulation environments such as NVIDIA Isaac Sim.
 
-![Demo Animation](demo.gif)
+![Demo Animation](image/demo.gif)
 
 ---
 
@@ -57,6 +57,8 @@ To simulate and control the robot using ROS2 in Isaac Sim:
    - Copy `USD/o3dyn_full.usd` and `USD/Gamepad_ogn.usd` to `Local nucleus service`, and make sure they are in the same folder. 
    - If you don't know about `Local Nucleus Service`, you can choose to open the file directly. Just make sure they are in the same folder. But there may be no floor, you can create one in `Creat>>Environments>>Flat Grid`
    - Run project.
+
+![Stag](image/Stag.png)
 
 2. **Verify ROS2 Communication**
    - In a new terminal:
