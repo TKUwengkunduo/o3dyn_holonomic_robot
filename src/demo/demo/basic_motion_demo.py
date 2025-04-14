@@ -18,7 +18,7 @@ class BasicMotionDemoNode(Node):
         self.state = 0
         self.state_start_time = self.get_clock().now()
 
-        time.sleep(5.0)
+        # time.sleep(5.0)
         self.timer = self.create_timer(0.001, self.update)
 
     def smooth_profile(self, t, total_time):
