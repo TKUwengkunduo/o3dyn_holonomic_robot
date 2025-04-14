@@ -57,8 +57,7 @@ To simulate and control the robot using ROS2 in Isaac Sim:
    - Copy `USD/o3dyn_full.usd` and `USD/Gamepad_ogn.usd` to `Local nucleus service`, and make sure they are in the same folder. 
    - If you don't know about `Local Nucleus Service`, you can choose to open the file directly. Just make sure they are in the same folder. But there may be no floor, you can create one in `Creat>>Environments>>Flat Grid`
    - Run project.
-
-![Stag](image/Stag)
+   ![Stag](image/Stag)
 
 2. **Verify ROS2 Communication**
    - In a new terminal:
